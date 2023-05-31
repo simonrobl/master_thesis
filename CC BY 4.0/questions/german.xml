@@ -1,0 +1,578 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<questionnaire id="288493">
+  <title>Kommerzielle digitale Spielprojekte in Deutschland - Fragebogen</title>
+  <investigator/>
+  <dataCollector/>
+  <section id="847">
+    <sectionInfo>
+      <position>title</position>
+      <text>Persönliche Angaben</text>
+      <administration>self</administration>
+    </sectionInfo>
+    <sectionInfo>
+      <position>before</position>
+      <text>Die in diesem Abschnitt gemachten Angaben werden im Rahmen der Anonymisierung in Abschnitte, wie zum Beispiel Berufsgruppen, eingeteilt. Für jede Frage gibt es die Möglichkeit, keine Angabe zu machen.</text>
+      <administration>self</administration>
+    </sectionInfo>
+    <question>
+      <text>Wie viele Jahre haben sie bisher beruflich an digitalen Spielen gearbeitet (Dezimalzahl, 6 Monate = 0,5)?</text>
+      <response varName="EXPERIENCE">
+        <fixed>
+          <category>
+            <label>Keine Angabe</label>
+            <value>AO01</value>
+          </category>
+          <category>
+            <label>Eigene Angabe</label>
+            <value>-oth-</value>
+            <contingentQuestion varName="EXPERIENCEother">
+              <text>Eigene Angabe</text>
+              <length>24</length>
+              <format>longtext</format>
+            </contingentQuestion>
+          </category>
+        </fixed>
+      </response>
+    </question>
+    <question>
+      <text>An wie vielen digitalen Spielen arbeiten Sie derzeit beruflich (ganze Zahl)?</text>
+      <response varName="PROJECTS">
+        <fixed>
+          <category>
+            <label>Keine Angabe</label>
+            <value>AO01</value>
+          </category>
+          <category>
+            <label>Eigene Angabe</label>
+            <value>-oth-</value>
+            <contingentQuestion varName="PROJECTSother">
+              <text>Eigene Angabe</text>
+              <length>24</length>
+              <format>longtext</format>
+            </contingentQuestion>
+          </category>
+        </fixed>
+      </response>
+    </question>
+    <question>
+      <text>Wie lautet Ihre momentane Berufsbezeichnung oder Berufsbezeichnungen?
+
+Bitte nutzen Sie für mehrere Einträge ein Komma zwischen jedem Eintrag.</text>
+      <response varName="JOB">
+        <fixed>
+          <category>
+            <label>Keine Angabe</label>
+            <value>AO01</value>
+          </category>
+          <category>
+            <label>Eigene Angabe</label>
+            <value>-oth-</value>
+            <contingentQuestion varName="JOBother">
+              <text>Eigene Angabe</text>
+              <length>24</length>
+              <format>longtext</format>
+            </contingentQuestion>
+          </category>
+        </fixed>
+      </response>
+    </question>
+    <question>
+      <text>In welchem Bundesland oder Bundesländern arbeiten Sie?</text>
+      <response varName="WORKPLACE_SQ001">
+        <fixed>
+          <category>
+            <label>Keine Angabe</label>
+            <value>Y</value>
+          </category>
+        </fixed>
+      </response>
+      <response varName="WORKPLACE_SQ002">
+        <fixed>
+          <category>
+            <label>Außerhalb Deutschlands</label>
+            <value>Y</value>
+          </category>
+        </fixed>
+      </response>
+      <response varName="WORKPLACE_SQ003">
+        <fixed>
+          <category>
+            <label>Baden Württemberg</label>
+            <value>Y</value>
+          </category>
+        </fixed>
+      </response>
+      <response varName="WORKPLACE_SQ004">
+        <fixed>
+          <category>
+            <label>Bayern</label>
+            <value>Y</value>
+          </category>
+        </fixed>
+      </response>
+      <response varName="WORKPLACE_SQ005">
+        <fixed>
+          <category>
+            <label>Berlin</label>
+            <value>Y</value>
+          </category>
+        </fixed>
+      </response>
+      <response varName="WORKPLACE_SQ006">
+        <fixed>
+          <category>
+            <label>Brandenburg</label>
+            <value>Y</value>
+          </category>
+        </fixed>
+      </response>
+      <response varName="WORKPLACE_SQ007">
+        <fixed>
+          <category>
+            <label>Bremen</label>
+            <value>Y</value>
+          </category>
+        </fixed>
+      </response>
+      <response varName="WORKPLACE_SQ008">
+        <fixed>
+          <category>
+            <label>Hamburg</label>
+            <value>Y</value>
+          </category>
+        </fixed>
+      </response>
+      <response varName="WORKPLACE_SQ009">
+        <fixed>
+          <category>
+            <label>Hessen</label>
+            <value>Y</value>
+          </category>
+        </fixed>
+      </response>
+      <response varName="WORKPLACE_SQ010">
+        <fixed>
+          <category>
+            <label>Mecklenburg-Vorpommern</label>
+            <value>Y</value>
+          </category>
+        </fixed>
+      </response>
+      <response varName="WORKPLACE_SQ011">
+        <fixed>
+          <category>
+            <label>Niedersachsen</label>
+            <value>Y</value>
+          </category>
+        </fixed>
+      </response>
+      <response varName="WORKPLACE_SQ012">
+        <fixed>
+          <category>
+            <label>Nordrhein Westfalen</label>
+            <value>Y</value>
+          </category>
+        </fixed>
+      </response>
+      <response varName="WORKPLACE_SQ013">
+        <fixed>
+          <category>
+            <label>Rheinland-Pfalz</label>
+            <value>Y</value>
+          </category>
+        </fixed>
+      </response>
+      <response varName="WORKPLACE_SQ014">
+        <fixed>
+          <category>
+            <label>Saarland</label>
+            <value>Y</value>
+          </category>
+        </fixed>
+      </response>
+      <response varName="WORKPLACE_SQ015">
+        <fixed>
+          <category>
+            <label>Sachsen</label>
+            <value>Y</value>
+          </category>
+        </fixed>
+      </response>
+      <response varName="WORKPLACE_SQ016">
+        <fixed>
+          <category>
+            <label>Sachsen-Anhalt</label>
+            <value>Y</value>
+          </category>
+        </fixed>
+      </response>
+      <response varName="WORKPLACE_SQ017">
+        <fixed>
+          <category>
+            <label>Schleswig-Holstein</label>
+            <value>Y</value>
+          </category>
+        </fixed>
+      </response>
+      <response varName="WORKPLACE_SQ018">
+        <fixed>
+          <category>
+            <label>Thüringen</label>
+            <value>Y</value>
+          </category>
+        </fixed>
+      </response>
+    </question>
+  </section>
+  <section id="850">
+    <sectionInfo>
+      <position>title</position>
+      <text>Projektstruktur Ihres Spiels</text>
+      <administration>self</administration>
+    </sectionInfo>
+    <sectionInfo>
+      <position>before</position>
+      <text>Die in diesem Abschnitt gemachten Angaben beziehen sich auf das kommerzielle digitale Spiel, an dem Sie zuletzt gearbeitet haben oder momentan arbeiten. Falls es mehrere Spiele gibt, beantworten Sie bitte alle Fragen im Bezug auf ein einziges Spiel. Dabei wählen Sie das Spiel, an das Sie sich am besten erinnern bzw. an dem Sie am meisten arbeiten.
+
+Die gemachten Angaben werden im Rahmen der Anonymisierung in Abschnitte, wie zum Beispiel Projektarten, eingeteilt. Für jede Frage gibt es die Möglichkeit, "nicht bekannt" oder "keine Angabe" anzugeben.</text>
+      <administration>self</administration>
+    </sectionInfo>
+    <question>
+      <text>Wie gliedern sich die Leute die an dem Spiel arbeiten (Mehrfachnennung möglich)?</text>
+      <response varName="TEAM_SQ001">
+        <fixed>
+          <category>
+            <label>Ein gemeinsames Team</label>
+            <value>Y</value>
+          </category>
+        </fixed>
+      </response>
+      <response varName="TEAM_SQ002">
+        <fixed>
+          <category>
+            <label>Mehrere Featureteams für verschiedene Spielteile, etwa Levels, Mechaniken, etc...</label>
+            <value>Y</value>
+          </category>
+        </fixed>
+      </response>
+      <response varName="TEAM_SQ003">
+        <fixed>
+          <category>
+            <label>Mehrere Departments für verschiede Aufgaben, etwa Art, Game Design, etc...</label>
+            <value>Y</value>
+          </category>
+        </fixed>
+      </response>
+      <response varName="TEAM_SQ004">
+        <fixed>
+          <category>
+            <label>Nicht bekannt</label>
+            <value>Y</value>
+          </category>
+        </fixed>
+      </response>
+      <response varName="TEAM_SQ005">
+        <fixed>
+          <category>
+            <label>Keine Angabe</label>
+            <value>Y</value>
+          </category>
+        </fixed>
+      </response>
+      <response varName="TEAMT">
+        <fixed>
+          <category>
+            <label>Eigene Angabe</label>
+            <value>Y</value>
+            <contingentQuestion varName="TEAMother">
+              <text>Eigene Angabe</text>
+              <length>24</length>
+              <format>longtext</format>
+            </contingentQuestion>
+          </category>
+        </fixed>
+      </response>
+    </question>
+    <question>
+      <text>Wie viele Leute arbeiten in ihrem Team oder Department an dem Spiel (ganze Zahl)?</text>
+      <response varName="TEAMSIZE">
+        <fixed>
+          <category>
+            <label>Nicht bekannt</label>
+            <value>AO01</value>
+          </category>
+          <category>
+            <label>Keine Angabe</label>
+            <value>AO02</value>
+          </category>
+          <category>
+            <label>Eigene Angabe</label>
+            <value>-oth-</value>
+            <contingentQuestion varName="TEAMSIZEother">
+              <text>Eigene Angabe</text>
+              <length>24</length>
+              <format>longtext</format>
+            </contingentQuestion>
+          </category>
+        </fixed>
+      </response>
+    </question>
+    <question>
+      <text>Wie arbeiten Sie mit anderen an dem Spiel zusammen (Mehrfachnennung möglich)?</text>
+      <response varName="WORKTYPE_SQ001">
+        <fixed>
+          <category>
+            <label>Vor Ort</label>
+            <value>Y</value>
+          </category>
+        </fixed>
+      </response>
+      <response varName="WORKTYPE_SQ002">
+        <fixed>
+          <category>
+            <label>Remote</label>
+            <value>Y</value>
+          </category>
+        </fixed>
+      </response>
+      <response varName="WORKTYPE_SQ003">
+        <fixed>
+          <category>
+            <label>Nicht bekannt</label>
+            <value>Y</value>
+          </category>
+        </fixed>
+      </response>
+      <response varName="WORKTYPE_SQ004">
+        <fixed>
+          <category>
+            <label>Keine Angabe</label>
+            <value>Y</value>
+          </category>
+        </fixed>
+      </response>
+    </question>
+    <question>
+      <text>Wie viel Prozent arbeiten Sie typischerweise vor Ort an dem Spiel?</text>
+      <response varName="WORKTYPEPERCENTAGE">
+        <fixed>
+          <category>
+            <label>Nicht bekannt</label>
+            <value>AO01</value>
+          </category>
+          <category>
+            <label>Keine Angabe</label>
+            <value>AO02</value>
+          </category>
+          <category>
+            <label>Eigene Angabe</label>
+            <value>-oth-</value>
+            <contingentQuestion varName="WORKTYPEPERCENTAGEother">
+              <text>Eigene Angabe</text>
+              <length>24</length>
+              <format>longtext</format>
+            </contingentQuestion>
+          </category>
+        </fixed>
+      </response>
+    </question>
+    <question>
+      <text>Welche Meetingarten fanden wie oft statt?</text>
+      <subQuestion varName="MEETINGTYPES_SQ001">
+        <text>Meetings zum Fortschritt einzelner Teammitglieder, z.B. Standups oder Dailies</text>
+      </subQuestion>
+      <subQuestion varName="MEETINGTYPES_SQ002">
+        <text>Meetings zum Fortschritt am Projekt insgesamt, z.B. Statusmeetings und Reviews</text>
+      </subQuestion>
+      <subQuestion varName="MEETINGTYPES_SQ003">
+        <text>Meetings zur Ausarbeitung anstehender Aufgaben, z.B. Refinements oder Modellierungen</text>
+      </subQuestion>
+      <subQuestion varName="MEETINGTYPES_SQ004">
+        <text>Meetings zur Planung und Einteilung von Aufgaben, z.B. Sprint Planning</text>
+      </subQuestion>
+      <subQuestion varName="MEETINGTYPES_SQ005">
+        <text>Meetings zum Arbeitsverlauf der letzten Zeit, z.B. Retrospektiven und Lessons Learned</text>
+      </subQuestion>
+      <response varName="MEETINGTYPES">
+        <fixed>
+          <category>
+            <label>Keine Angabe</label>
+            <value>AO01</value>
+          </category>
+          <category>
+            <label>Nicht bekannt</label>
+            <value>AO02</value>
+          </category>
+          <category>
+            <label>Spontan/Wenn nötig</label>
+            <value>AO03</value>
+          </category>
+          <category>
+            <label>Regelmäßig</label>
+            <value>AO04</value>
+          </category>
+        </fixed>
+      </response>
+    </question>
+    <question>
+      <text>Werden die Meetings und deren Ergebnisse dokumentiert?</text>
+      <response varName="MEETINGRESULTS">
+        <fixed>
+          <category>
+            <label>Ja, alle</label>
+            <value>AO01</value>
+          </category>
+          <category>
+            <label>Nein, keine</label>
+            <value>AO02</value>
+          </category>
+          <category>
+            <label>Nicht bekannt</label>
+            <value>AO03</value>
+          </category>
+          <category>
+            <label>Keine Angabe</label>
+            <value>AO04</value>
+          </category>
+          <category>
+            <label>Teilweise, eigene Angabe</label>
+            <value>-oth-</value>
+            <contingentQuestion varName="MEETINGRESULTSother">
+              <text>Teilweise, eigene Angabe</text>
+              <length>24</length>
+              <format>longtext</format>
+            </contingentQuestion>
+          </category>
+        </fixed>
+      </response>
+    </question>
+    <question>
+      <text>Wie wird bei der Entwicklung des Spiels vorgegangen (Mehrfachauswahl möglich)?</text>
+      <response varName="ORDER_SQ001">
+        <fixed>
+          <category>
+            <label>Arbeit an einer Ebene des Spiels nach dem Anderen. Etwa zuerst an einer Engine, dann den grundlegenden Mechaniken, usw...</label>
+            <value>Y</value>
+          </category>
+        </fixed>
+      </response>
+      <response varName="ORDER_SQ002">
+        <fixed>
+          <category>
+            <label>Arbeit an mehreren Ebenen des Spiels simultan. Beispielsweise an Engine und Spiel parallel.</label>
+            <value>Y</value>
+          </category>
+        </fixed>
+      </response>
+      <response varName="ORDER_SQ003">
+        <fixed>
+          <category>
+            <label>Entwicklung eines Features nach dem anderen. Zum Beispiel Level für Level, Mechanik für Mechanik, etc..</label>
+            <value>Y</value>
+          </category>
+        </fixed>
+      </response>
+      <response varName="ORDER_SQ004">
+        <fixed>
+          <category>
+            <label>Parallele Entwicklung mehrerer Features wie Levels, Mechaniken, usw...</label>
+            <value>Y</value>
+          </category>
+        </fixed>
+      </response>
+      <response varName="ORDER_SQ005">
+        <fixed>
+          <category>
+            <label>Nicht bekannt</label>
+            <value>Y</value>
+          </category>
+        </fixed>
+      </response>
+      <response varName="ORDER_SQ006">
+        <fixed>
+          <category>
+            <label>Keine Angabe</label>
+            <value>Y</value>
+          </category>
+        </fixed>
+      </response>
+      <response varName="ORDERT">
+        <fixed>
+          <category>
+            <label>Eigene Angabe</label>
+            <value>Y</value>
+            <contingentQuestion varName="ORDERother">
+              <text>Eigene Angabe</text>
+              <length>24</length>
+              <format>longtext</format>
+            </contingentQuestion>
+          </category>
+        </fixed>
+      </response>
+    </question>
+    <question>
+      <text>Wie würden Sie den Entwicklungsverlauf charakterisieren (Mehrfachauswahl möglich)?</text>
+      <response varName="PROCESS_SQ01">
+        <fixed>
+          <category>
+            <label>Wasserfall / Linear: Ein sequentieller Verlauf, bei dem die nächste Projektphase erst dann begonnen wird, wenn die vorherige Phase vollständig abgeschlossen ist.</label>
+            <value>Y</value>
+          </category>
+        </fixed>
+      </response>
+      <response varName="PROCESS_SQ02">
+        <fixed>
+          <category>
+            <label>Iterativ: Ein Verlauf bestehend aus zyklischen, kurzen Abschnitten (z.B. Sprints), in denen jeweils ein vollständiges Feature oder bedeutsames Inkrement entwickelt wird.</label>
+            <value>Y</value>
+          </category>
+        </fixed>
+      </response>
+      <response varName="PROCESS_SQ03">
+        <fixed>
+          <category>
+            <label>Hybrid: Einsatz von linearen und iterativen Verlaufsarten im selben Projekt.</label>
+            <value>Y</value>
+          </category>
+        </fixed>
+      </response>
+      <response varName="PROCESS_SQ04">
+        <fixed>
+          <category>
+            <label>Ad-Hoc: Maßgeschneiderter Prozess, der ohne vorherige Definition für ein bestimmtes Projekt erstellt wird. Aktivitäten wie z.B. Meetings oder Arbeitschritte werden nach Bedarf definiert, um auf auftretende Probleme zu reagieren.</label>
+            <value>Y</value>
+          </category>
+        </fixed>
+      </response>
+      <response varName="PROCESS_SQ06">
+        <fixed>
+          <category>
+            <label>Nicht bekannt</label>
+            <value>Y</value>
+          </category>
+        </fixed>
+      </response>
+      <response varName="PROCESS_SQ05">
+        <fixed>
+          <category>
+            <label>Keine Angabe</label>
+            <value>Y</value>
+          </category>
+        </fixed>
+      </response>
+      <response varName="PROCESST">
+        <fixed>
+          <category>
+            <label>Eigene Angabe</label>
+            <value>Y</value>
+            <contingentQuestion varName="PROCESSother">
+              <text>Eigene Angabe</text>
+              <length>24</length>
+              <format>longtext</format>
+            </contingentQuestion>
+          </category>
+        </fixed>
+      </response>
+    </question>
+  </section>
+</questionnaire>
